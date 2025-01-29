@@ -1,4 +1,4 @@
-@import url('variable.css');
+@import url('variables.css');
 
 *{
     padding: 0;
@@ -50,21 +50,21 @@
 }
 
 .article_home span{
-    font-size: 15px;
-    font-family: "Monserrat-Semibold";
+    font-size: 28px;
+    /*font-family: "Monserrat-semibold";*/
 }
 
 .article_home h1{
-    font-size: 50px;
-    font-family: "Monserrat-Semibold";
+    font-size: 80px;
+    /*font-family: "Monserrat-semibold";*/
 }
 
 .article_home p{
-    font-size: 15px;
-    font-family: "Monserrat-medium";
+    font-size: 20px;
+    /*font-family: "Monserrat-semibold";*/  
 }
 
 .ul_menu li{
     font-size: 14px;
-    font-family: "Monserrat-semibold";
+    /*font-family: "Monserrat-semibold";*/
 }
