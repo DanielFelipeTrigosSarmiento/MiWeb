@@ -7,6 +7,10 @@
     font-family: sans-serif;
 }
 
+body{
+    background-color: #071917;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -38,33 +42,125 @@
 }
 
 .article_home{
-    width: 626px;
+    width: 1100px;
     height: 300px;
     position: relative;
-    left: 21svW;
-    top: 36svh;
+    left: 14svW;
+    top: 48.5svh;
     display: flex;
     flex-direction: column;
     gap: 0px;
     color: var(--font-color-1);
 }
 
+.section_icon{
+    background: #071816;
+    display: flex;
+    justify-content: space-evenly;    
+}
+
 .article_home span{
-    font-size: 28px;
-    /*font-family: "Monserrat-semibold";*/
+    font-size: 50px;
+    font-family: "Montserratbase";
+    font-weight: 600;
 }
 
 .article_home h1{
-    font-size: 80px;
-    /*font-family: "Monserrat-medium";*/
+    font-size: 116px;
+    font-family: "Montserratbase";  
 }
 
 .article_home p{
-    font-size: 20px;
-    /*font-family: "Monserrat-semibold";*/  
+    font-size: 30px;
+    font-family: "Monserrat-medium";
 }
 
 .ul_menu li{
     font-size: 20px;
-    /*font-family: "Monserrat-semibold";*/
+    font-family: "Monserrat-semibold";
+}
+
+
+.section_pag{
+    width: 95%;
+    height: 100svh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 65px;
+
+
+}
+
+
+.sec1{
+    background-image: url("/storage/img/pagina1.png" );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.sec1 h2{
+    color: aliceblue;
+    margin: 0 0 57px 100px ;
+    font-size: 60px;
+}
+
+.section_pag2{
+    width: 95%;
+    height: 100svh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 65px;
+
+}
+
+.sec2{
+    background-image: url("/storage/img/pagina2.png" );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.sec2 h2{
+    color: aliceblue;
+    margin: 0 0 57px 100px ;
+    font-size: 60px;
+}
+
+.section_pag3{
+    width: 95%;
+    height: 100svh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 65px;
+
+}
+
+.sec3{
+    background-image: url("/storage/img/pagina3.png" );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.sec3 h2{
+    color: aliceblue;
+    margin: 0 0 57px 100px ;
+    font-size: 60px;
 }
