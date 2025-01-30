@@ -1,17 +1,17 @@
 :root{
     --font-color-1: #eee;
-    --color-gradient-1: #376e4017;
+    --color-gradient-1: #376e4000;
     --color-gradient-2: #071917;
     --banner-1: url(/storage/img/photo1.png)
     
 }
 
 @font-face {
-    font-family: Monserrat-medium;
-    src: url(mi-web/storage/font/Montserrat-Italic-VariableFont_wght.ttf);
+    font-family: "Montserrat-medium";
+    src: url(../storage/fonts/Montserrat-Italic-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: Monserrat-semibold;
-    src: url(/storage/font/Montserrat-VariableFont_wght.ttf);
-}
+    font-family: "Montserratbase";
+    src: url(../storage/fonts/Montserrat-VariableFont_wght.ttf);
+}   
