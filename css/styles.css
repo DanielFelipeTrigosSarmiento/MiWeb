@@ -72,12 +72,12 @@ body{
 
 .article_home p{
     font-size: 30px;
-    font-family: "Monserrat-medium";
+    font-family: "Monserratmedio";
 }
 
 .ul_menu li{
     font-size: 20px;
-    font-family: "Monserrat-semibold";
+    font-family: "Monserrat-base";
 }
 
 
@@ -163,4 +163,11 @@ body{
     color: aliceblue;
     margin: 0 0 57px 100px ;
     font-size: 60px;
+}
+
+.txt{
+    color: aliceblue;
+    margin: 0 0 57px 100px ;
+    font-size: 30px;
+    font-family: "Montserrat-medium";
 }
