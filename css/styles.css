@@ -195,22 +195,47 @@ color: aliceblue;
 
 }
 .carousel button{
-    padding: 10px 20px; /* Espaciado interno (arriba/abajo y izquierda/derecha) */
+    padding: 10px 20px; 
     margin-left: 85px;
     margin-top: 10px;
     font-size: 24px;
-    background-color: white; /* Color de fondo */
-    color: rgb(41, 32, 32); /* Color del texto */
-    border: none; /* Sin borde por defecto */
-    border-radius: 50px; /* Bordes redondeados */
-    cursor: pointer; /* Muestra el cursor como mano al pasar por encima */
+    background-color: white; 
+    color: rgb(41, 32, 32); 
+    border: none; 
+    border-radius: 50px;
+    cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
-.footer{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background: #071816;
+.footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
-    justify-content: center ;
-    gap: 70px;
+    justify-content: center; 
+    gap: 20px;
+  }
+  
+  .icon-button {
+    display: inline-block; 
+    padding: 10px; 
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .icon-button img {
+    width: 40px; 
+    height: auto;
+    transition: transform 0.3s ease; 
+  }
+  
+  .icon-button:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2); 
+  }
+  
+  .icon-button:hover img {
+    transform: scale(1.1); 
+  }
+  
+  .icon-button:active {
+    transform: scale(0.98);
 }
+  
