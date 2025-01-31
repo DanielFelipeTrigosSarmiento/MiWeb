@@ -1,5 +1,4 @@
-@import url('variables.css');
-
+@import url(variables.css);
 *{
     padding: 0;
     margin: 0;
@@ -63,6 +62,7 @@ body{
     flex-direction: column;
     gap: 0px;
     color: var(--font-color-1);
+    font-family: basetion;
 }
 
 .section_icon{

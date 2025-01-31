@@ -1,3 +1,53 @@
+@import url(/css/variacion.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 body {
-    background-color: #1e1e1e;
+    background-color: #071917;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 76%;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 10px;  
+    gap: 50px;
+}
+.ul_menu {
+    font-size: 20px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    gap: 50%;
+    padding-left: 500px;
+    color: white;
+}
+.ul_menu :visited {
+    text-decoration: none;
+    color: white;
+
+}
+.sin_subrayado{
+    text-decoration: none;
+    color: white;
+
+}
+.sin-subrayado:visited {
+    color: #000000;
   }
+.div__icon{
+    margin-right: -300px;
+    gap: 30px;
+}
+.div__img{
+    display: flex;
+    gap: 20px;
+}
