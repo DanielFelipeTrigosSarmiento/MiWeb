@@ -29,8 +29,21 @@ body{
     text-align: center;
     gap: 50%;
     padding-right: 0px;
-    color: #686868; 
+    color: white; 
 }
+.ul_menu :visited {
+    text-decoration: none;
+    color: white;
+
+}
+.sin_subrayado{
+    text-decoration: none;
+    color: white;
+
+}
+.sin-subrayado:visited {
+    color: #000000;
+  }
 
 .section_home{
     background-image: linear-gradient(var(--color-gradient-1), var(--color-gradient-2)), var(--banner-1);
