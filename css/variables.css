@@ -7,11 +7,11 @@
 }
 
 @font-face {
-    font-family: "Montserratmedio";
+    font-family: "medium";
     src: url(../storage/fonts/Montserrat-Italic-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: "Montserratbase";
+    font-family: "base";
     src: url(../storage/fonts/Montserrat-VariableFont_wght.ttf);
 }   
