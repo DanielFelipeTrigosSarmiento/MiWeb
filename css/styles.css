@@ -176,7 +176,7 @@ body{
     gap: 20px;
 
     & > .carousel-item {
-        border-radius: 10%;
+        border-radius: 25px;
         flex: 1;
         min-width: 20%;
         background-color: #145E2A;
